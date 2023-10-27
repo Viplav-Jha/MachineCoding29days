@@ -1,0 +1,19 @@
+.App{
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  flex-direction: column;
+  width: 100px;
+  height: 180px;
+  border-radius: 2px black;
+  border-style: solid ;
+  margin: 10px;
+}
+

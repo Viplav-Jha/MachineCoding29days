@@ -9,7 +9,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <App item={''} handleSwapClick={function (item: string): void {
+      throw new Error('Function not implemented.');
+    } } />
   </React.StrictMode>
 );
 
